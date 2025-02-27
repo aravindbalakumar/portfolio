@@ -153,3 +153,23 @@ textarea:focus, input:focus{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+body{
+background-image:  radial-gradient( #7db12255  0.5px, transparent 0.5px), radial-gradient(#7db12255 0.5px, transparent 0.5px);
+background-color: colr;
+background-size: 40px 40px;
+background-position: 0 0, 50px 50px;
+z-index: -100;
+position: relative;
+-webkit-animation: scrolling 30s ease-in-out infinite;
+    -moz-animation: scrolling 30s ease-in-out infinite;
+    -o-animation: scrolling 30s ease-in-out infinite;
+    animation: scrolling 30s ease-in-out infinite;
+}
+@keyframes scrolling {
+    from{
+        background-position: 0 0;
+    }
+    to{
+        background-position: 105% 105%;
+    }
+}

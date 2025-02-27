@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <>
     {/* shows the horizontal menu when screnn has enough width */}
-      <div className='navbar'>
+      <header className='navbar'>
       <Link reloadDocument to="/"><img id="logo" src={logo}></img></Link>
         <ul className="horizontalItems">
         <li className="nav-item"> <Link reloadDocument to="/">Home</Link> </li>
@@ -40,7 +40,7 @@ function Navbar() {
             <li><a href={resume}><button id="button">Download CV</button></a></li>
           </ul>
           : <></>}
-      </div>
+      </header>
     </>
   );
 }

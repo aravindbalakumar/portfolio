@@ -1,0 +1,20 @@
+.cartItem
+{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.cartItem_Image
+{
+    object-fit: contain;
+    height: 100%;
+
+}
+
+.cartItem_Name{}
+.cartItem_Quantity{}
+.cartItem_Price{}
+.cartItem_Close{}
