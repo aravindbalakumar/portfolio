@@ -243,7 +243,7 @@
         margin-bottom:50px;
         justify-self: center;
     }
-    #inlineRight #inlineCenter #inlineLeft{
+    #inlineRight{
         display:block;
         max-width:300px;
         max-height: 300px;
@@ -251,6 +251,14 @@
         margin-top:50px;
         margin-bottom:50px;
     }
+#inlineCenter{
+    display:block;
+    max-width:300px;
+    max-height: 300px;
+    aspect-ratio:auto;
+    margin-top:50px;
+    margin-bottom:50px;
+}
     
 }
 .blg_fll_close
