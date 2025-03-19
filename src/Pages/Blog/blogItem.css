@@ -8,7 +8,8 @@
 }
 .blg_fll_description{
     line-height: 1.5rem;
-    color:var(--color)
+    color:var(--color);
+    width: 98%;
 }
 
 .blg_fll {
@@ -211,6 +212,16 @@
         aspect-ratio:auto;
         margin-right:50px;
     }
+    #inlineCenter
+    {
+        display:inline-block;
+        max-width:300px;
+        max-height: 300px;
+        aspect-ratio:auto;
+        margin-top:50px;
+        margin-bottom:50px;
+        justify-self: center;
+    }
     #inlineRight{
         display:inline-block;
         float:right ;
@@ -232,7 +243,7 @@
         margin-bottom:50px;
         justify-self: center;
     }
-    #inlineRight{
+    #inlineRight #inlineCenter #inlineLeft{
         display:block;
         max-width:300px;
         max-height: 300px;
@@ -240,7 +251,6 @@
         margin-top:50px;
         margin-bottom:50px;
     }
-    
     
 }
 .blg_fll_close
