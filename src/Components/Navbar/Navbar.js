@@ -5,6 +5,7 @@ import { Route,Link } from 'react-router-dom';
 import Menu from './../../Assets/Images/Icons/menu.ico';
 import Close from './../../Assets/Images/Icons/close.ico';
 import resume from './../../Assets/Other/Resume_Aravind.pdf';
+import portfolio from './../../Assets/Other/PortFolio.pdf';
 import logo from "./../../Assets/Images/Icons/logo.png"
 function Navbar() {
   const [navBarDropdownState, TogglenavBarDropdownState] = useState(false);
@@ -22,6 +23,7 @@ function Navbar() {
           {/* <li className="nav-item"> <Link reloadDocument to="/gallery">Gallery</Link> </li> */}
           <li className="nav-item"><Link reloadDocument to="/projects">Projects</Link></li>
           <li className="nav-item"><Link reloadDocument to="/contact">Contact</Link></li>
+          <li className="nav-item"><a href={portfolio}><button id="button">Download Portfolio</button></a></li>
           {/* <li className="nav-item"><Link reloadDocument to="/createblog">CreateBlog</Link></li> */}
           <li><a href={resume}><button>Download CV</button></a></li>
         </ul>
@@ -37,6 +39,7 @@ function Navbar() {
             <li><Link reloadDocument to="/projects" onClick={dropdownToggle}>Projects</Link></li>
           <li><Link reloadDocument to="/contact" onClick={dropdownToggle}>Contact</Link></li>
           {/* <li><Link reloadDocument to="/createblog" onClick={dropdownToggle}>CreateBlog</Link></li> */}
+          <li className="nav-item"><a href={portfolio}><button id="button">Download Portfolio</button></a></li>
             <li><a href={resume}><button id="button">Download CV</button></a></li>
           </ul>
           : <></>}
