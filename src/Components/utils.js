@@ -1,10 +1,11 @@
 import { TbBrandUnity, TbBrandGithub, TbBrandFirebase, TbBrandCSharp, TbAugmentedReality2, TbBrandAmazon ,TbBrandJavascript,TbHtml,TbBrandCss3} from "react-icons/tb";
 import{SiAmazons3,SiWebgl} from "react-icons/si"
-import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaFacebook,FaFileDownload} from "react-icons/fa";
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import { getDatabase } from "firebase/database";
 const techmap = new Map();
+techmap.set("download", <FaFileDownload id="prjt_card_skill_Tag" />);
 techmap.set("unity", <TbBrandUnity id="prjt_card_skill_Tag" />);
 techmap.set("firebase", <TbBrandFirebase id="prjt_card_skill_Tag" />);
 techmap.set("js", <TbBrandJavascript id="prjt_card_skill_Tag" />);

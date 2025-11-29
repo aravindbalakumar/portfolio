@@ -5,7 +5,9 @@ import { Route,Link } from 'react-router-dom';
 import Menu from './../../Assets/Images/Icons/menu.ico';
 import Close from './../../Assets/Images/Icons/close.ico';
 import resume from './../../Assets/Other/Resume_Aravind.pdf';
+import Portfolio from './../../Assets/Other/PortFolio.pdf';
 import logo from "./../../Assets/Images/Icons/logo.png"
+import { techmap } from '../utils';
 function Navbar() {
   const [navBarDropdownState, TogglenavBarDropdownState] = useState(false);
   var dropdownToggle = () => TogglenavBarDropdownState(!navBarDropdownState)
@@ -19,11 +21,10 @@ function Navbar() {
         <li className="nav-item"> <Link reloadDocument to="/">Home</Link> </li>
           <li className="nav-item"> <Link reloadDocument to="/about">About</Link> </li>
           <li className="nav-item"> <Link reloadDocument to="/blogs">Blog</Link> </li>
-          {/* <li className="nav-item"> <Link reloadDocument to="/gallery">Gallery</Link> </li> */}
           <li className="nav-item"><Link reloadDocument to="/projects">Projects</Link></li>
           <li className="nav-item"><Link reloadDocument to="/contact">Contact</Link></li>
-          {/* <li className="nav-item"><Link reloadDocument to="/createblog">CreateBlog</Link></li> */}
-          <li><a href={resume}><button>Download CV</button></a></li>
+          <li><a href={Portfolio}><button> Portfolio (PDF)</button></a></li>
+          <li><a href={resume}><button>Resume (PDF)</button></a></li>
         </ul>
         <button id="hamburger" onClick={dropdownToggle} className= {navBarDropdownState ? "showNavbarMenu" : "hideNavbarMenu"}><span /><span /><span /></button>
         {/* shows the dropdown menu */}
@@ -37,7 +38,8 @@ function Navbar() {
             <li><Link reloadDocument to="/projects" onClick={dropdownToggle}>Projects</Link></li>
           <li><Link reloadDocument to="/contact" onClick={dropdownToggle}>Contact</Link></li>
           {/* <li><Link reloadDocument to="/createblog" onClick={dropdownToggle}>CreateBlog</Link></li> */}
-            <li><a href={resume}><button id="button">Download CV</button></a></li>
+          <li><a href={Portfolio}><button>Portfolio (PDF)</button></a></li>
+            <li><a href={resume}><button>Resume (PDF)</button></a></li>
           </ul>
           : <></>}
       </div>
