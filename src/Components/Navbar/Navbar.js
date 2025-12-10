@@ -23,9 +23,9 @@ function Navbar() {
           {/* <li className="nav-item"> <Link reloadDocument to="/gallery">Gallery</Link> </li> */}
           <li className="nav-item"><Link reloadDocument to="/projects">Projects</Link></li>
           <li className="nav-item"><Link reloadDocument to="/contact">Contact</Link></li>
-          <li className="nav-item"><a href={portfolio}><button id="button">Download Portfolio</button></a></li>
+          <li className="nav-item"><a href={portfolio}><button id="button">Portfolio</button></a></li>
           {/* <li className="nav-item"><Link reloadDocument to="/createblog">CreateBlog</Link></li> */}
-          <li><a href={resume}><button>Download CV</button></a></li>
+          <li><a href={resume}><button>Resume</button></a></li>
         </ul>
         <button id="hamburger" onClick={dropdownToggle} className= {navBarDropdownState ? "showNavbarMenu" : "hideNavbarMenu"}><span /><span /><span /></button>
         {/* shows the dropdown menu */}
@@ -39,8 +39,8 @@ function Navbar() {
             <li><Link reloadDocument to="/projects" onClick={dropdownToggle}>Projects</Link></li>
           <li><Link reloadDocument to="/contact" onClick={dropdownToggle}>Contact</Link></li>
           {/* <li><Link reloadDocument to="/createblog" onClick={dropdownToggle}>CreateBlog</Link></li> */}
-          <li className="nav-item"><a href={portfolio}><button id="button">Download Portfolio</button></a></li>
-            <li><a href={resume}><button id="button">Download CV</button></a></li>
+          <li className="nav-item"><a href={portfolio}><button id="button">Portfolio</button></a></li>
+            <li><a href={resume}><button id="button">Resume</button></a></li>
           </ul>
           : <></>}
       </div>
