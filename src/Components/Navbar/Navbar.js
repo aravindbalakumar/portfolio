@@ -19,7 +19,7 @@ function Navbar() {
         <ul className="horizontalItems">
         <li className="nav-item"> <Link reloadDocument to="/">Home</Link> </li>
           <li className="nav-item"> <Link reloadDocument to="/about">About</Link> </li>
-          <li className="nav-item"> <Link reloadDocument to="/blogs">Blog</Link> </li>
+          {/* <li className="nav-item"> <Link reloadDocument to="/blogs">Blog</Link> </li> */}
           {/* <li className="nav-item"> <Link reloadDocument to="/gallery">Gallery</Link> </li> */}
           <li className="nav-item"><Link reloadDocument to="/projects">Projects</Link></li>
           <li className="nav-item"><Link reloadDocument to="/contact">Contact</Link></li>
@@ -34,7 +34,7 @@ function Navbar() {
           <ul className="navBarDropdownItems">
             <li> <Link reloadDocument to="/" onClick={dropdownToggle}>Home</Link> </li>
             <li><Link reloadDocument to="/about" onClick={dropdownToggle}>About</Link></li>
-            <li><Link reloadDocument to="/blogs" onClick={dropdownToggle}>Blog</Link></li>
+            {/* <li><Link reloadDocument to="/blogs" onClick={dropdownToggle}>Blog</Link></li> */}
             {/* <li><Link reloadDocument to="/gallery" onClick={dropdownToggle}>Gallery</Link></li> */}
             <li><Link reloadDocument to="/projects" onClick={dropdownToggle}>Projects</Link></li>
           <li><Link reloadDocument to="/contact" onClick={dropdownToggle}>Contact</Link></li>

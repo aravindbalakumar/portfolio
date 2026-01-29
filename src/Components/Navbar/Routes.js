@@ -1,7 +1,7 @@
 import { HashRouter, Route, Routes } from "react-router-dom";
 import Home from "./../../Pages/Home/Home";
 import About from "./../../Pages/Aboutme/AboutMe";
-import Blog from "./../../Pages/Blog/Blog";
+// import Blog from "./../../Pages/Blog/Blog";
 import MyProjects from "./../../Pages/MyProjects/MyProjects";
 import Contact from "./../../Pages/Contact/Contact";
 import Gallery from "../../Pages/Gallery/Gallery";
@@ -14,7 +14,7 @@ function RouteResources() {
              <Route path="/*" element={<Home />} />
              {/* <Route path="/homepage" element={<Home/>} /> */}
              <Route path="/about" element={<About />} />
-             <Route path="/blogs" element={<Blog />} />
+             {/* <Route path="/blogs" element={<Blog />} /> */}
              
              <Route path="/gallery" element={<Gallery />} />
               <Route path="/projects" element={<MyProjects/>}/>
