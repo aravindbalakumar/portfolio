@@ -149,6 +149,28 @@
         "figma",
         "github"
       ]
-    }
+    },
+	{
+    "Description": " An app  that combines daily pet care with a social community,offering tools to track health, discover local events",
+    "Images": [
+      "9_1.png",
+      "9_2.png",
+      "9_3.png",
+      "9_4.png",
+      "9_5.png",
+      "9_6.png",
+      "9_7.png",
+      "9_8.png"
+    ],
+    "Logo": "9_0.png",
+    "Longdescription": "The all-in-one app for pet lovers! This app combines daily pet care with a social community,offering tools to track health, discover local events, and share photos,videos, and stories. A built-in chat system supports text, images, emojis, and voice messages, while the pet tagging feature helps locate missing pets. The alert panel delivers updates on lost animals, health advisories, and localannouncements. An interactive pet-friendly map highlights adoption drives,community meetups, and welcoming spaces for pets.",
+    "Name": "Pet Connect, The all-in-one app for pet lovers!",
+    "Role": "UX Designer<br/>,  Steered and took over the role of UX designer and led the following activities Brainstorming, Mindmapping, Competitor Analysis, Survey, Empathy mapping, User persona, Low fidelity prototype and Designing High fidelity  prototype ",
+    "Techstack": [
+      "forms",
+      "figma"
+    ]
+  }
   ]
 }
+  
