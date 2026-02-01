@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.5005b998.css",
-    "main.js": "/portfolio/static/js/main.089b5bb6.js",
+    "main.js": "/portfolio/static/js/main.4ad95f6e.js",
     "static/media/9_1.png": "/portfolio/static/media/9_1.09906744c901b55c1cc8.png",
     "static/media/8_1.png": "/portfolio/static/media/8_1.1e214315410f9ef096ab.png",
     "static/media/1_1.png": "/portfolio/static/media/1_1.1fb896b6f60ec4514b96.png",
@@ -35,10 +35,10 @@
     "static/media/7_3.png": "/portfolio/static/media/7_3.3aae8f7e6eef8c1ab7de.png",
     "static/media/9_7.png": "/portfolio/static/media/9_7.0b4f4e2e1dec6440be16.png",
     "static/media/9_8.png": "/portfolio/static/media/9_8.e6e44ecbd715c1967aae.png",
+    "static/media/Resume_Aravind.pdf": "/portfolio/static/media/Resume_Aravind.947feef353640d8bfb0e.pdf",
     "static/media/7_2.png": "/portfolio/static/media/7_2.193e0fa5d3a05f12f3b5.png",
     "static/media/5_3.png": "/portfolio/static/media/5_3.f2b8329b0db096d44614.png",
     "static/media/Interphase.ttf": "/portfolio/static/media/Interphase.10646b146f1512dca185.ttf",
-    "static/media/Resume_Aravind.pdf": "/portfolio/static/media/Resume_Aravind.8814d5d5baae2a2f43fb.pdf",
     "static/media/7_1.png": "/portfolio/static/media/7_1.9c3ac7d2ae9bc2734677.png",
     "static/media/5_2.png": "/portfolio/static/media/5_2.35d6fbde860f83946911.png",
     "static/media/9.jpg": "/portfolio/static/media/9.71b9948b1abea5a9312b.jpg",
@@ -64,10 +64,10 @@
     "static/media/menu.ico": "/portfolio/static/media/menu.63c64121929d3c631b32.ico",
     "index.html": "/portfolio/index.html",
     "main.5005b998.css.map": "/portfolio/static/css/main.5005b998.css.map",
-    "main.089b5bb6.js.map": "/portfolio/static/js/main.089b5bb6.js.map"
+    "main.4ad95f6e.js.map": "/portfolio/static/js/main.4ad95f6e.js.map"
   },
   "entrypoints": [
     "static/css/main.5005b998.css",
-    "static/js/main.089b5bb6.js"
+    "static/js/main.4ad95f6e.js"
   ]
 }
